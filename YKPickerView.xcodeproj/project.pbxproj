@@ -15,6 +15,8 @@
 		E851A9AD1FD67AB5003508F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E851A9AC1FD67AB5003508F8 /* main.m */; };
 		E851A9B71FD67AB5003508F8 /* YKPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E851A9B61FD67AB5003508F8 /* YKPickerViewTests.m */; };
 		E851A9C21FD67AB5003508F8 /* YKPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E851A9C11FD67AB5003508F8 /* YKPickerViewUITests.m */; };
+		E851A9D21FD67C0A003508F8 /* YKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E851A9D11FD67C0A003508F8 /* YKPickerView.m */; };
+		E851A9D41FD67D21003508F8 /* areaArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = E851A9D31FD67D21003508F8 /* areaArray.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		E851A9BD1FD67AB5003508F8 /* YKPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E851A9C11FD67AB5003508F8 /* YKPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPickerViewUITests.m; sourceTree = "<group>"; };
 		E851A9C31FD67AB5003508F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E851A9D01FD67C0A003508F8 /* YKPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKPickerView.h; sourceTree = "<group>"; };
+		E851A9D11FD67C0A003508F8 /* YKPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPickerView.m; sourceTree = "<group>"; };
+		E851A9D31FD67D21003508F8 /* areaArray.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = areaArray.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +106,14 @@
 		E851A99C1FD67AB5003508F8 /* YKPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				E851A9CF1FD67BA4003508F8 /* YKPickerView */,
 				E851A99D1FD67AB5003508F8 /* AppDelegate.h */,
 				E851A99E1FD67AB5003508F8 /* AppDelegate.m */,
 				E851A9A01FD67AB5003508F8 /* ViewController.h */,
 				E851A9A11FD67AB5003508F8 /* ViewController.m */,
 				E851A9A31FD67AB5003508F8 /* Main.storyboard */,
 				E851A9A61FD67AB5003508F8 /* Assets.xcassets */,
+				E851A9D31FD67D21003508F8 /* areaArray.plist */,
 				E851A9A81FD67AB5003508F8 /* LaunchScreen.storyboard */,
 				E851A9AB1FD67AB5003508F8 /* Info.plist */,
 				E851A9AC1FD67AB5003508F8 /* main.m */,
@@ -130,6 +137,15 @@
 				E851A9C31FD67AB5003508F8 /* Info.plist */,
 			);
 			path = YKPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		E851A9CF1FD67BA4003508F8 /* YKPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E851A9D01FD67C0A003508F8 /* YKPickerView.h */,
+				E851A9D11FD67C0A003508F8 /* YKPickerView.m */,
+			);
+			path = YKPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E851A9AA1FD67AB5003508F8 /* LaunchScreen.storyboard in Resources */,
+				E851A9D41FD67D21003508F8 /* areaArray.plist in Resources */,
 				E851A9A71FD67AB5003508F8 /* Assets.xcassets in Resources */,
 				E851A9A51FD67AB5003508F8 /* Main.storyboard in Resources */,
 			);
@@ -266,6 +283,7 @@
 			files = (
 				E851A9A21FD67AB5003508F8 /* ViewController.m in Sources */,
 				E851A9AD1FD67AB5003508F8 /* main.m in Sources */,
+				E851A9D21FD67C0A003508F8 /* YKPickerView.m in Sources */,
 				E851A99F1FD67AB5003508F8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
