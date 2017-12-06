@@ -1,11 +1,15 @@
 # YKPickerView
 
+
 - ##安装
+
 使用cocoapods安装
 `pod 'YKPickerView'`
 
 - ##使用
+
 ####1. 初始化
+
 ```
 /**
 初始化方法
@@ -21,6 +25,7 @@
 ```
 
 当然如果是联动类型，你还需要提供解析数据的keyArr，其他两种类型则不需要
+
 ```
 /**
 设置联动的两个key数组，如果是联动的style请一定要设置，否则无法获取数据。
@@ -36,11 +41,13 @@
 ####2. 设置代理delegate，用于获取数据
 
 ####3. 展示
+
 ```
 - (void)show;
 ```
 
 ####4. 实现delegate获取数据resultArr
+
 ```
 @protocol YKPickerViewDelegate <NSObject>
 
@@ -50,6 +57,8 @@
 
 @end
 ```
+
 ------------------------
-具体的使用可以参考本项目Demo和 [**我的博客**](http://www.jianshu.com/p/30db76f1303c)
+
+具体的使用可以参考本项目Demo和  [**我的博客**](http://www.jianshu.com/p/30db76f1303c)
 
