@@ -1,16 +1,13 @@
 # YKPickerView
 
- - ##安装
+ - ## 安装
 
 使用cocoapods安装
 `pod 'YKPickerView'`
 
-##- 使用
+- ## 使用
 
-####1. 初始化
->>>>>>> 3027e3b0dcced162133cdb1cc98c3f2a6c44b2f2
-
- ####1. 初始化
+#### 1. 初始化
  
 ```
 /**
@@ -40,15 +37,15 @@
 - (void)setResultKeyArr:(NSArray *)resultKeyArr nextKeyArr:(NSArray *)nextKeyArr;
 ```
 
-####2. 设置代理delegate，用于获取数据
+#### 2. 设置代理delegate，用于获取数据
 
-####3. 展示
+#### 3. 展示
 
 ```
 - (void)show;
 ```
 
-####4. 实现delegate获取数据resultArr
+#### 4. 实现delegate获取数据resultArr
 
 ```
 @protocol YKPickerViewDelegate <NSObject>
