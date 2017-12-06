@@ -1,11 +1,14 @@
-﻿# YKPickerView
+# YKPickerView
 
  - ##安装
 
- 使用cocoapods安装
+使用cocoapods安装
 `pod 'YKPickerView'`
 
- - ##使用
+##- 使用
+
+####1. 初始化
+>>>>>>> 3027e3b0dcced162133cdb1cc98c3f2a6c44b2f2
 
  ####1. 初始化
  
